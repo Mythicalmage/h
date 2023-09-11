@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <table>
+        {% for post in t %}
+        <tr>
+            <td>{{ Post.name }}</td>
+            <td>{{ Post.date_of_create }}</td>
+            <td>{{ Post.who_post }}</td>
+
+        {% endfor %}
+    </table>
+</body>
+</html>
